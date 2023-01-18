@@ -20,7 +20,7 @@ const MealItemForm = (props) => {
             <label htmlFor="Amount">Amount</label>
             <input ref={AmountInputRef} onSubmit={AmountSubmitHandler} type="number" min={1} id="Amount"></input>
         </div>
-        <button onClick={AmountSubmitHandler} htmlFor='Amount' type="submit"> + Add</button>
+        <button onClick={AmountSubmitHandler} defaultValue='1' htmlFor='Amount' type="submit"> + Add</button>
     </form>
 }
 
